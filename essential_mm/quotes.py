@@ -21,7 +21,44 @@ initial_quotes = [
     "Don't gain the world and lose your soul; wisdom is better than silver or gold. - Bob Marley"
     "Be as you wish to seem. - Socrates"
     "It is far better to grasp the universe as it really is than to persist in delusion, however satisfying and reassuring - Carl Sagan",
-    "Personality is an unbroken series of successful gestures. - F. Scott Fitzgerald"
+    "Personality is an unbroken series of successful gestures. - F. Scott Fitzgerald",
+    "Whatever you are, be a good one - Abraham Linccoln",
+    "Don't wait. The time will never be just right - Napoleon Hill",
+    "If not us, who? If not now, when? - John F Kennedy",
+    "Everything you can imagine is real - Pablo Picasso",
+    "Life is trying things to see if they work - Ray Bradbury",
+    "Do one thing every day that scares you - Eleanor Roosevelt",
+    "The power of imagination makes us inifinite - John Muir",
+    "Eighty percent of success is showing up - Woody Allen",
+    "A jug fills drop by drop - Budda",
+    "The obstacle is the path - Zen Proverb",
+    "All you need is love - John Lennon",
+    "It does not matter how slowly you go as long as you do not stop - Confucius",
+    "It is never to late to be what you might have been - Someone",
+    "If you try to fail, and succeed, which have you done? - George Carlin",
+    "You can’t wait for inspiration. You have to go after it with a club - Jack London",
+    "Great spirits have always encountered violent opposition from mediocre minds - Albert Einstein",
+    "A diamond is merely a lump of coal that did well under pressure - Someone",
+    "Try to be like the turtle – at ease in your own shell - Bill Copeland",
+    "There’s never enough time to do all the nothing you want - Bill Watterson",
+    "Think of how stupid the average person is, and realize half of them are stupider than that - George Carlin"
+    "The reason I talk to myself is because I’m the only one whose answers I accept - George Carlin",
+    "What you do speaks so loudly tha I cannot hear what you say - Ralph Waldo Emerson",
+    "The best dreams happen when you’re awake. ~Cherie Gilderbloom",
+    "A year from now you may wish you had started today - Karen Lamb",
+    "Do what you can, where you are, with what you have - Teddy Roosevelt",
+    "To avoid criticism, do nothing, say nothing, be nothing - Elbert Hubbard",
+    "Do what you love and the money will follow - Marsha Sinetar",
+    "The purpose of our lives is to be happy - Dalai Lama",
+    "The price of anything is the amount of life you exchange for it - Henry David Thoreau",
+    "There are no shortcuts to any place worth going - Beverly Sills",
+    "Do not take life too seriously. You will never get out of it alive - Elbert Hubbard",
+    "People who think they know everything are a great annouance to those of us who do - Isaac Asimov",
+    "Roses are red, violets are blue, I'm schizophrenic and so am I - Oscar Levant",
+    "I always wanted to be somebody, but not I realize I should have been more specific - Lilly Tomlin",
+    "Go to Heaven for the climate, Hell for the company - Mark Twain",
+    "All generalizations are false, including this one - Mark Twain"
+
 ]
 
 
