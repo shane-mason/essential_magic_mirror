@@ -41,7 +41,7 @@ initial_quotes = [
     "A diamond is merely a lump of coal that did well under pressure - Someone",
     "Try to be like the turtle – at ease in your own shell - Bill Copeland",
     "There’s never enough time to do all the nothing you want - Bill Watterson",
-    "Think of how stupid the average person is, and realize half of them are stupider than that - George Carlin"
+    "Think of how stupid the average person is, and realize half of them are stupider than that - George Carlin",
     "The reason I talk to myself is because I’m the only one whose answers I accept - George Carlin",
     "What you do speaks so loudly tha I cannot hear what you say - Ralph Waldo Emerson",
     "The best dreams happen when you’re awake. ~Cherie Gilderbloom",
@@ -53,7 +53,7 @@ initial_quotes = [
     "The price of anything is the amount of life you exchange for it - Henry David Thoreau",
     "There are no shortcuts to any place worth going - Beverly Sills",
     "Do not take life too seriously. You will never get out of it alive - Elbert Hubbard",
-    "People who think they know everything are a great annouance to those of us who do - Isaac Asimov",
+    "People who think they know everything are a great annoyance to those of us who do - Isaac Asimov",
     "Roses are red, violets are blue, I'm schizophrenic and so am I - Oscar Levant",
     "I always wanted to be somebody, but not I realize I should have been more specific - Lilly Tomlin",
     "Go to Heaven for the climate, Hell for the company - Mark Twain",

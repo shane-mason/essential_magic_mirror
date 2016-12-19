@@ -2,7 +2,8 @@
 
 BASEDIR=$(dirname "$0")
 
-sudo pip3 install flask
+sudo pip3 install aiohttp
+sudi pip3 install aiohttp_jinja2
 sudo pip3 install essentialdb
 
 sudo cp $BASEDIR/essential_mm.service /lib/systemd/system/
