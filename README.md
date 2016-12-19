@@ -2,25 +2,21 @@
 Testing for rasberry-pi magic mirror project I am working on. This may turn into something, or may not. For now, it is
 only an experiment and should not be used.
 
-#Install Dependencies
+# Download
 
-Flask
+Clone from git using the following command in the /home/pi directory:
 
-    sudo pip3 install flask
+    git clone https://github.com/shane-mason/essential_magic_mirror.git
 
-EssentialDB
+This will create a directory called 'essential_magic_mirror'
 
-    sudo pip3 install essentialdb
+# Install Services
 
-# Set To Autostart:
+To install, run the following from any directory:
 
-Set the service to start
+    bash /home/pi/essential_magic_mirror/install_mm.sh
+
+It should start on reboot.
 
 
-    sudo cp essential_magic_mirror/pi/essential_mm.service /lib/systemd/system/
-
-
-Start the browser in kiosk mode
-
-    essential_magic_mirror/pi/autoChromium.desktop  ~/.config/autostart/
 
