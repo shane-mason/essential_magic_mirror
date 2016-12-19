@@ -1,0 +1,11 @@
+[Unit]
+Description=Essential Magic Mirror Service
+After=multi-user.target
+ 
+[Service]
+Type=simple
+ExecStart=/bin/bash /home/pi/essential_magic_mirror/pi/run_mm.sh
+Restart=on-abort
+ 
+[Install]
+WantedBy=multi-user.target
