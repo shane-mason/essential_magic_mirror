@@ -29,9 +29,9 @@ $(function(){
     run_splash_screen = function( sentences ){
         sentences = [
             "Welcome to Essential Magic Mirror",
+            "The place for the fairest of them all",
             "Setting up your experience",
             "And we hope its as beautiful as you!",
-            "We should be ready now! Enjoy!"
         ]
 
 

@@ -5,21 +5,29 @@ from essentialdb import EssentialDB
 import random
 import jinja2
 import aiohttp_jinja2
+import os
+import datetime
 
 class MMRequestHandler:
 
-    def __init__(self):
+    def __init__(self, db_path):
+        self.db_path = db_path
         self._init_db()
 
     def _init_db(self):
-        from quotes import initial_quotes
 
-        with EssentialDB(filepath=db_path) as db:
-            db.set("quotes", initial_quotes)
+        #first, see if already exists
+        if not os.path.isfile(self.db_path):
+            print("creating db...")
+            from quotes import initial_quotes
+
+            with EssentialDB(filepath=self.db_path) as db:
+                db.set("quotes", initial_quotes)
+
 
     @aiohttp_jinja2.template('weather.html')
     async def weather(self, request):
-        with EssentialDB(filepath=db_path) as db:
+        with EssentialDB(filepath=self.db_path) as db:
             weather = db.get("weather")
             do_update = False
 
@@ -41,7 +49,7 @@ class MMRequestHandler:
 
 
     async def quote(self, request):
-        with EssentialDB(filepath=db_path) as db:
+        with EssentialDB(filepath=self.db_path) as db:
             quote = random.choice(db.get("quotes"))
 
         return web.Response(text=quote)
@@ -53,9 +61,9 @@ if __name__ == "__main__":
         mm_config = json.load(json_data_file)
 
     weather_connector = WeatherConnector(mm_config["weather"]["url"])
-    db_path = mm_config["server"]["db_file"]
+    db_file_path = mm_config["server"]["db_file"]
 
-    handler = MMRequestHandler()
+    handler = MMRequestHandler(db_file_path)
 
     app = web.Application()
     app.router.add_get('/weather', handler.weather)
