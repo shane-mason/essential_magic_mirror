@@ -5,7 +5,7 @@ import json
 app = Flask(__name__)
 
 from essentialdb import EssentialDB
-from essential_mm.weather_connector import WeatherConnector
+from weather_connector import WeatherConnector
 
 import datetime
 import random
@@ -16,7 +16,7 @@ weather_connector = None
 db_path = None
 
 def _init_db():
-    from essential_mm.quotes import initial_quotes
+    from quotes import initial_quotes
 
     with EssentialDB(filepath=db_path) as db:
         db.set("quotes", initial_quotes)
@@ -63,7 +63,7 @@ def add_quote():
 
 if __name__ == "__main__":
 
-    with open('mm_config.json') as json_data_file:
+    with open('essential_mm/mm_config.json') as json_data_file:
         mm_config = json.load(json_data_file)
 
     weather_connector = WeatherConnector(mm_config["weather"]["url"])

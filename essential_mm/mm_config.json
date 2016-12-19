@@ -9,7 +9,6 @@
     "greeting": "Welcome to your magic mirror"
   },
   "weather": {
-    /* replace with your own API key please */
     "url": "http://api.openweathermap.org/data/2.5/weather?id=5809844&units=imperial&APPID=7c225b59bd62016b34dc86d016727392",
     "update_minutes": 25
   }
