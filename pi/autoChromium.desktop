@@ -1,6 +1,6 @@
 [Desktop Entry]
 Type=Application
-Exec=/usr/bin/chromium-browser --noerrdialogs --disable-session-crashed-bubble --disable-infobars --kiosk http://127.0.0.1:5000/static/index.html
+Exec=/usr/bin/chromium-browser --noerrdialogs --disable-session-crashed-bubble --disable-infobars --kiosk http://127.0.0.1:8080/static/index.html
 Hidden=false
 X-GNOME-Autostart-enabled=true
 Name[en_US]=AutoChromium

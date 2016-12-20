@@ -1,7 +1,7 @@
 #!/bin/bash
 
 BASEDIR=$(dirname "$0")
-cd $BASEDIR/..
-/usr/bin/python3 essential_mm/mm_webservice.py
+cd $BASEDIR/../essential_mm
+/usr/bin/python3 mm_aioserver.py
 
 

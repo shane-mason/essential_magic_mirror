@@ -1,6 +1,6 @@
 from aiohttp import web
 import json
-from essential_mm.weather_connector import WeatherConnector
+from weather_connector import WeatherConnector
 from essentialdb import EssentialDB
 import random
 import jinja2
@@ -73,7 +73,5 @@ if __name__ == "__main__":
     aiohttp_jinja2.setup(app, loader=jinja2.FileSystemLoader('templates'))
     web.run_app(app)
 
-    #_init_db()
-    #app.run(mm_config['server']["interface"])
 
 

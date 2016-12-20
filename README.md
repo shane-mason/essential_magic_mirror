@@ -2,6 +2,14 @@
 Testing for rasberry-pi magic mirror project I am working on. This may turn into something, or may not. For now, it is
 only an experiment and should not be used.
 
+# Prereq
+
+    sudo echo 'deb http://mirrordirector.raspbian.org/raspbian/ testing main contrib non-free rpi' > /etc/apt/sources.list.d/stretch.list
+    sudo apt-get update
+    sudo apt-get dist-upgrade
+    sudo apt-get autoremove
+
+
 # Download
 
 Clone from git using the following command in the /home/pi directory:
