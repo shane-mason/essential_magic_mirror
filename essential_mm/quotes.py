@@ -58,9 +58,38 @@ initial_quotes = [
     {'q': "I always wanted to be somebody, but now I realize I should have been more specific", 'by': "Lilly Tomlin"},
     {'q': "Go to Heaven for the climate, Hell for the company", 'by': "Mark Twain"},
     {'q': "All generalizations are false, including this one", 'by': "Mark Twain"},
-
+    {'q': "For most of history 'Anonymous' was a woman", 'by': "Virginia Wolf"},
+    {'q': "Know what? Bitches get stuff done", 'by': "Tina Fey"},
+    {'q': "I am a Woman Phenomenally. Phenomenal Woman, that's me", 'by': "Maya Angelou"},
+    {'q': "Far away there in the sunshine are my highest aspirations. I may not reach them, but I can look up and see their beauty, believe in them, and try to follow where they lead.", 'by': "Louisa May Alcott"},
+    {'q': "Don't compromise yourself, you are all you've got", 'by': "Janis Joplin"},
+    {'q': "Never doubt that a small group of thoughtful, committed citizens can change the world; indeed, it's the only thing that ever has", 'by': "Margaret Mead"},
+    {'q': "Success is going from failure to failure without losing your enthusiams", 'by': "Winston Churchill"},
+    {'q': "Dream big and dare to fail", 'by': "Norman Vaughan"},
+    {'q': "There is only one success: to be able to spend your life in your own way", 'by': "Christopher Morley"},
+    {'q': "The best way out is always through", 'by': "Robert Frost"},
+    {'q': "Make each day your masterpiece", 'by': "John Wooden"},
+    {'q': "The best dreams happen whan you're awake", 'by': "Cherie Golderbloomm"},
+    {'q': "Every moment is a fresh beginning", 'by': "T.S. Eliot"},
+    {'q': "Don't count the days, make the days count", 'by': "Muhammad Ali"},
+    {'q': "I don’t think women are better than men, I think men are a lot worse than women.", 'by': "Louis CK"},
+    {'q': "The only time you look in your neighbor’s bowl is to make sure that they have enough. You don’t look in your neighbor’s bowl to see if you have as much as them", 'by': "Louis CK"},
+    {'q': "The most effective way to do it, is to do it", 'by': "Amelia Earhart"},
+    {'q': "The future belongs to those who believe in the beauty of their dreams", 'by': "Eleanor Roosevelt"},
+    {'q': "It's not your job to like me - it's mine", 'by': "Byron Katie"},
+    {'q': "Put on some lipstick and pull yourself together", 'by': "Elizabeth Taylor"},
+    {'q': "The most courageous act is still to think for yourself. Aloud.", 'by': "Coco Chanel"},
+    {'q': "A lot of people are afraid to say what they want. That's why they don't get what they want", 'by': "Madonna Ciccone"},
+    {'q': "I have not failed, I have only found 10000 ways that wont work", 'by': "Thomas Edison"},
+    {'q': "People will never forget how you made them feel.", 'by': "Maya Angelou"},
+    {'q': "Power to me is having the ability to make a change in a positive way.", 'by': "Victoria Justice"},
+    {'q': "I love America. Just because I think gay dudes should be allowed to adopt kids and we should all have hybrid cars doesn’t mean I don’t love America", 'by': "Liz Lemon"},
+    {'q': "I pretty much just do whatever Oprah tells me to", 'by': "Liz Lemon"},
+    {'q': "If I have learned anything from my SIMS family: When a child doesn’t see his father enough he starts to jump up and down, then his mood level with drop until he pees himself", 'by': "Liz Lemon"},
+    {'q': "You are my heroine! And by heroine I mean lady hero. I don’t want to inject you and listen to jazz.", 'by': "Liz Lemon"},
+    {'q': "As you navigate through the rest of your life, be open to collaboration. Other people and other people's ideas are often better than your own. Find a group of people who challenge and inspire you, spend a lot of time with them, and it will change your life", 'by': "Amy Poehler"},
+    {'q': "The earlier you learn that you should focus on what you have, and not obsess about what you don't have, the happier you will be.", 'by': "Amy Poehler"}
 ]
-
 
 
 
