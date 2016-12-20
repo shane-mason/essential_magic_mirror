@@ -27,19 +27,20 @@ $(function(){
 
 
     run_splash_screen = function( sentences ){
-        sentences = [
-            "Welcome to Essential Magic Mirror",
-            "The place for the fairest of them all",
-            "Setting up your experience",
-            "And we hope its as beautiful as you!",
-        ]
-
+        if(sentences == null){
+            sentences = [
+                "Welcome to Essential Magic Mirror",
+                "The place for the fairest of them all",
+                "Setting up your experience",
+                "And we hope its as beautiful as you!",
+            ]
+        }
 
 
         var update_center = function(sentences, index){
             var container = $("#center")
             //container.html(sentences[index]);
-            container.shuffleLetters({"text": sentences[index]})
+            container.shuffleLetters({"text": sentences[index], "fps":18, "step": 6 })
             index+=1
             if(index < sentences.length){
                 setTimeout( function(){update_center(sentences, index)}, 3000 )
@@ -103,8 +104,26 @@ $(function(){
         document.getElementById('date-large').innerHTML="<b>" + thisDay + "</b>, "  + " " + months[month] + " " + day + " " + year;
     }
 
-setInterval(showTime, 10000);
-setTimeout(refresh_weather, 10000)
-setTimeout(refresh_quote, 10000)
+setInterval(showTime, 15000);
+setTimeout(refresh_weather, 15000)
+setTimeout(refresh_quote, 15000)
 run_splash_screen()
+//setTimeout()
+
+demo_sentences = [
+"Merry Christmas!",
+"This is a magic mirror",
+"Made with an old tv",
+"A two-way mirror",
+"A raspberry pi",
+"Some handcrafted software",
+"All put together with love",
+"We wanted you to have these",
+"So you see beautiful things every day",
+"So Merry Christmas Sweet Love!"
+]
+setInterval(function(){
+run_splash_screen(demo_sentences)}, 60000)
+
+
 });

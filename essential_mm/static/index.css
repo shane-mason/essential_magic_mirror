@@ -30,7 +30,7 @@ div {
     text-align: right;
 }
 
-#center {
+#centerx {
     font-family: 'Orbitron', sans-serif;
     font-size: 30px;
     position: absolute;
@@ -40,6 +40,17 @@ div {
     -webkit-transform: translateX(-50%) translateY(-50%);
     transform: translateX(-50%) translateY(-50%);
 }
+
+#center {
+    font-family: 'Righteous', cursive;
+    font-size: 30px;
+    position: absolute;
+    top: 250px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+
 #footer {
     font-family: 'Righteous', cursive;
     position: absolute;
@@ -47,6 +58,10 @@ div {
     bottom: 10px;
     right: 10px;
     text-align:center;
+}
+
+.quoteby {
+    font-size: 15px;
 }
 
 .wrapper-clockdate {

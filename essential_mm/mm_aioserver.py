@@ -47,13 +47,12 @@ class MMRequestHandler:
 
         return {'weather': weather}
 
-
+    @aiohttp_jinja2.template('quote.html')
     async def quote(self, request):
         with EssentialDB(filepath=self.db_path) as db:
             quote = random.choice(db.get("quotes"))
 
-        return web.Response(text=quote)
-
+        return { 'quote': quote }
 
 if __name__ == "__main__":
 
